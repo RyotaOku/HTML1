@@ -1,0 +1,30 @@
+ /*
+ body{
+		color: #0000ff;
+}
+
+【透明色つけたい場合】
+p{
+		color: rgba(255,00,00,0.5)
+}
+↑↑ 半透明性の赤色を適用。値は 0〜1 かつ10進数。
+*/
+h1{
+		color: #FF0000;
+}
+ul.framework{
+		color: skyblue;
+}
+.first{
+		color: tomato;
+}
+.pg li{
+		color: skyblue;
+}
+.dd li:first-letter{
+		color: green;
+}
+#box h2,#box p{
+		color: red;
+		font-size: 20px;
+}

@@ -1,0 +1,57 @@
+/* * {
+	margin: 0;
+	padding: 0;
+} */
+
+h1, p {
+	border: 1px solid tomato;
+/* 	display: inline; */
+}
+
+/* a {
+	display: inline-block;
+	border: 1px solid tomato;
+	width: 200px;
+	height: 60px;
+	margin: 20px;
+	padding: 20px;
+} */
+
+.text {
+	border: 1px solid tomato;
+/* 	opacity: 0;
+opacityプロパティでは可視・不可視を０〜１で調整可能。
+0.5を指定すると半透明、0にすると [ visibility: hidden; ] と同じ挙動をする。
+ */
+ 
+/* 	visibility: hidden; */
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table,th,td {
+	border: 1px solid black;
+}
+
+a.btn {
+	display: block;
+	width: 200px;
+	height: 50px;
+	margin: auto;
+ 	line-height: 50px;
+/*  [ line-height:50px; ] → 子に継承入ります。単位の無い生の値だと子に継承しません。 */
+ 	color: white;
+	background: tomato;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* a.btn:link, a.btn:visited{
+	color: tomato;
+} */
+
+a.btn:hover {
+	background: skyblue;
+}

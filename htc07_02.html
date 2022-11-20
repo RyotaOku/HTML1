@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>ユーザー登録</title>
+</head>
+<body>
+<h1><img src="images/htc07_logo.jpg" alt="ユーザー登録"></h1>
+<form action="htc07_02.html" method="post">
+<table>
+	<tr>
+		<th width="200" height="40" align="center">
+		ユーザー名
+		</th>
+		<td>
+		<input type="text" name="user_name" size="30">
+		</td>
+	</tr>
+	<tr>
+		<th width="200" height="40" align="center">
+		ユーザーID
+		</th>
+		<td>
+		<input type="text" name="name" maxlength="6">　<input type="submit" value="重複チェック">
+		</td>
+	</tr>
+	<tr>
+		<th width="200" height="40" align="center">
+		パスワード
+		</th>
+		<td>
+		<input type="password" name="pass">
+		</td>
+	</tr>
+	<tr>
+		<th width="200" height="41" align="center">
+		パスワード（確認）
+		</th>
+		<td>
+		<input type="password" name="pass_pre">
+		</td>
+	</tr>
+	<tr>
+		<th width="200" height="39" align="center">
+		お住まいの地方
+		</th>
+		<td>
+		<select name="address">
+			<option value="" selected>-------</option>
+			<option value="hokkaidou">北海道</option>
+			<option value="tohoku">東北地方</option>
+			<option value="kantou">関東地方</option>
+			<option value="chubu">中部地方</option>
+			<option value="kinki">近畿地方</option>
+			<option value="chugoku">中国地方</option>
+			<option value="sikoku">四国地方</option>
+			<option value="kyusyu">九州地方</option>
+		</select></td>
+	</tr>
+	<tr>
+		<th width="200" height="40" align="center">
+		どこで知りましたか
+		</th>
+		<td>
+		<label><input type="radio" name="media" value="internet">インターネット</label>
+		<label><input type="radio" name="media" value="tv">テレビ</label>
+		<label><input type="radio" name="media" value="magazine">雑誌・広告</label>
+		<label><input type="radio" name="media" value="etc" checked>その他</label>
+		</td>
+	</tr>
+	<tr>
+		<th width="200" height="20" align="center">
+		お得な情報
+		</th>
+		<td>
+		<label><input type="checkbox" name="mail">サイトのお得な情報を受取る</label>
+		</td>
+	</tr>
+	<tr>
+		<th width="200" height="150" align="center">
+		ご意見ご参考
+		</th>
+		<td><textarea cols="40" rows="5" name="comment"></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td height="40" align="center" colspan="2"><input type="reset" value="リセット">　<input type="submit" value="送信"></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>

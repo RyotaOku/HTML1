@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.nav li {
+	height: 58px;
+	background-image: url("../images/htc11_new.png");
+	background-position: left 18px;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	padding-left: 30px;
+	margin: 10px 0;
+	float: left;
+	border: 1px solid blue;
+	width: 218px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+#wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid tomato;
+}
+
+#boxA{
+	text-align:center;
+	font-size:2em;
+	line-height: 150px;
+	height:150px;
+	color: #fff;
+	background: #F14870;
+	float: left;
+	width: 550px;
+}
+#boxB{
+	text-align:center;
+	font-size:2em;
+	line-height: 150px;
+	height:150px;
+	color: #fff;
+	background: #3B68FE;
+	float: right;
+	width: 300px;
+}
+#boxC{
+	text-align:center;
+	font-size:2em;
+	line-height: 150px;
+	height:150px;
+	color: #fff;
+	background: #6DF174;
+	float: left;
+	width:150px;
+}
+#boxD{
+	text-align:center;
+	font-size:2em;
+	line-height: 150px;
+	height:150px;
+	color: #fff;
+	background: #E2EB3B;
+	clear: both;
+}

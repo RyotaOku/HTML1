@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>sample04 - 表の作成</title>
+</head>
+<body>
+<h1>表の作成</h1>
+<table border="1" width="500"><!-- <capton>タグは省略可能 -->
+	<caption>成績表</caption>
+	<tr>
+		<th width="250">名前</th>
+		<th width="125">国語</th>
+		<th width="125">算数</th>
+	</tr>
+	<tr>
+		<td align="center" height="70">さとう</td>
+		<td align="center">60</td>
+		<td align="center">70</td>
+	</tr>
+	<tr>
+		<td align="center" height="70">やまだ</td>
+		<td align="center">80</td>
+		<td align="center">90</td>
+	</tr>
+</table>
+
+<h2>表の作成その２</h2>
+
+<table border="1">
+	<tr>
+		<th>見出し１</th>
+		<td>データ１</th>
+		<td>データ１</th>
+	</tr>
+	<tr>
+		<th>見出し２</th>
+		<td>データ２</td>
+		<td>データ２</td>
+	</tr>
+	<tr>
+		<th>見出し３</th>
+		<td>データ３</td>
+		<td>データ３</td>
+	</tr>
+</table>
+
+<h2>表の作成その３</h2>
+
+<table border="1">
+	<thead>
+		<tr>
+			<th>名前</th>
+			<th>国語</th>
+			<th>算数</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<th>平均</th>
+			<td>75</td>
+			<td>80</td>
+		</tr>
+	</tfoot>
+	<tbody>
+		<tr>
+			<td>おく</td>
+			<td>100</td>
+			<td>100</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>表の作成その４</h2>
+	<table border="1">
+		<tr>
+			<td colspan="3">1-1</td>
+			<td rowspan="3">1-4</td>
+		</tr>
+		<tr>
+			<td>2-1</td>
+			<td>2-2</td>
+			<td rowspan="2">2-3</td>
+		</tr>
+		<tr>
+			<td>3-1</td>
+			<td>3-2</td>
+		</tr>
+	</table>
+</body>
+</html>

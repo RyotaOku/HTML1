@@ -1,0 +1,29 @@
+body {
+	/* 	background-color: #FEFEFE; */
+	/* 	background-image: url(../images/htc06_info.jpg); */
+	/* 	background-image: url(../images/htc05_logo.png); */
+	/* 	background-repeat: no-repeat; */
+	/* 	background-position: center top; */
+	/* 	background-attachment: fixed; */
+	/* 	background-size: contain; */
+	/* background-size: contain; を使用すれば、画面の幅いっぱいに画像を表示することが可能（縦横比は固定される）。  */
+	background: #FEFEFE url(../images/htc05_logo.png) no-repeat center top;
+}
+
+h1 {
+	font-size: 3em;
+	background-image: url("../images/htc05_logo.png");
+	background-size: 55px 55px;
+	background-position: 5px 10px;
+	background-repeat: no-repeat;
+	padding: 0px 0px 0px 70px;
+}
+
+h2 {
+	font-size: 2.5em;
+	background-image: url("../images/htc05_logo.png");
+	background-size: 40px 40px;
+	background-position: 5px 10px;
+	background-repeat: no-repeat;
+	padding: 0px 0px 0px 55px;
+}

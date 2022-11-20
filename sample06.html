@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>sample06 - フォームの作成</title>
+</head>
+<body>
+    <h1>フォームの作成</h1>
+    <h2>ログイン</h2>
+    
+    <form action="sample06.html" method="get">
+    <p>メールアドレス：
+    <input type="text" name="mail" value="" placeholder="メールアドレス"></p>
+    
+    <p>パスワード：
+    <input type="password" name="pass" placeholder="8桁で入力してください"></p>
+    <input type="submit" value="ログイン">
+    </form>
+    
+    <h2>登録</h2>
+    <form action="#" method="get">
+    <p>名前：<input type="text" size="10" required></p>
+    <p>郵便番号：
+    <input type="text" maxlength="7" required>
+    <input type="button" value="検索"></p>
+    <p>都道府県：
+        <select>
+            <option>大阪</option>
+            <option>兵庫</option>
+            <option>京都</option>
+            <option>和歌山</option>
+            <option>奈良</option>
+            <option selected>滋賀</option>
+        </select></p>
+    <p>交通手段：
+    電車<input type="radio" name="traffic" value="train">
+    バス<input type="radio" name="traffic" value="bus" checked>
+    徒歩<input type="radio" name="traffic" value="walk">
+    </p>
+    <p>この情報をどこで知りましたか
+    Web<input type="checkbox" name="info" value="Web">
+    友人から<input type="checkbox" name="info" value="friend">
+    </p>
+    <form>
+</body>
+</html>
